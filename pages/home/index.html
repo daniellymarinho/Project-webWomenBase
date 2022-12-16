@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
     <title>Webwomen</title>
     <meta
       name="description"
@@ -14,10 +18,51 @@
       Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
       e ao redor do mundo?"
     />
-</head>
-<body>
-    <main></main>
+
+    <script
+      src="https://kit.fontawesome.com/ced989c14d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="image-header">
+      <div class="header-text">
+        <img class="logo" src="/assets/img/logo.svg" alt="" />
+        <h1 class="title-header">Lugar de mulher é onde ela quiser!</h1>
+        <p class="description-header">
+          Está procurando oportunidades de estágio, emprego ou bolsas de estudo?
+          Ou até mesmo oportunidades para atender eventos de tecnologia no
+          Brasil e ao redor do mundo?
+        </p>
+        <span class="description-header"
+          >Confere aqui embaixo o que temos pra você!</span
+        >
+        <button class="button-header">Ir para seção das vagas</button>
+      </div>
+    </header>
+    <main class="jobs">
+      <span class="title__list-jobs subtitle">Vagas</span>
+      <div class="content">
+        <div class="list">
+          <ul class="list-jobs"></ul>
+        </div>
+        <aside class="select-jobs">
+          <div class="content">
+            <span class="title__select-jobs subtitle">Vagas selecionadas</span>
+            <div class="off__select-jobs">
+              <div class="on">
+                <span class="title__off-select-jobs"
+                  >Você ainda não aplicou para nenhuma vaga</span
+                >
+                <i class="icon-jobs fa-solid fa-align-left"></i>
+              </div>
+              <ul class="list__select-jobs"></ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
     <script src="jobsData.js"></script>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
